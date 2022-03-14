@@ -1,0 +1,495 @@
+.container{
+    width: 1170px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+}
+ul{
+    width: 450px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+li{
+
+    height: 75px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+li:hover{
+    background-color: #dc8c19;
+    color: white;
+}
+ .li-B:hover{
+    background-color:rgba(150, 47, 150, 0);
+}
+.li-B{
+    width: 70px;
+}
+.li-B button{
+    height: 25px;
+    width: 70px;
+    background-color: rgb(99, 121, 56);
+    border-style: none;
+    border-radius: 5%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+ header .searchDiv{
+     width: 277px;
+     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header .searchDiv i{
+    color:rgb(99, 121, 56);
+    font-size: 30px;
+}
+header .searchDiv input{
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    border-style: none;
+    margin-right: 10px;
+    border: 1px solid rgb(99, 121, 56) ;
+}
+.silder{
+    height: 400px;
+    background-image: url("../images/nn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.insilder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.438);
+    justify-content: space-evenly;
+
+}
+.insilder p{
+    white-space: pre-line;
+    align-items: center;
+    color: white;
+
+}
+.insilder p span{
+    font-size: 30px;
+    font-weight: bolder;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+.insilder .dotDiv{
+    display: inline-block;
+    position:absolute;
+    left: 950px;
+    bottom: 15px;
+}
+.insilder .dotDiv input{
+    margin:-2%;
+
+}
+
+.insilder button{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(99, 121, 56);
+    border-style: none;
+    font-weight: bolder;
+    margin-top: -6%;
+}
+.insilder button:hover{
+    color: rgb(99, 121, 56);
+    background-color: white;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 55px;
+
+
+}
+.topp{
+    height: 35px;
+    width: 100px;
+    background-color: #dc8c19;
+    color: white;
+    font-weight: bolder;
+    border-radius: 2px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    bottom: 366px;
+    line-height: 35px;
+}
+.service div p{
+    white-space: pre-line;
+    text-align: justify;
+    margin-top: 0%;
+
+}
+.service div img{
+    border: yellow 1px solid;
+    border-radius: 50%;
+    height: 100px;
+    width: 90px;
+
+    background-color: rgb(143, 182, 145);
+}
+.service div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.service div span{
+    width: 100px;
+    height: 23px;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.service div p .iner{
+    font-size: 15px;
+    font-weight: 100;
+    color:  rgb(99, 121, 56) ;
+}
+.portfollio{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(135, 156, 92) ;
+    /* justify-content: space-around; */
+}
+
+.portfollio .titleDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.organgB{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 35px;
+    width: 100px;
+    background-color: #dc8c19;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    border: 3px #d6a157 solid ;
+}
+.organgB:hover{
+    background-color: white;
+    color: #dc8c19;
+}
+.imgDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imgDiv div{
+    width: 305px;
+}
+.imgDiv div img{
+    border: 5px #dc8c19 solid;
+}
+
+
+
+.imgDiv div p{
+    white-space: pre-line;
+    color: white;
+}
+.imgDiv div p span{
+    color: #fcea8f;
+}
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.offer .first p{
+    white-space: pre;
+    color: rgb(82, 58, 6);
+}
+.offer .first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.offer .second{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(99, 121, 56);
+    
+}
+.offer .second div{
+    width: 195px;
+}
+
+
+.offer .first h1,.offer .second div h3 ,.testmonials h1{
+    color: rgb(36, 95, 20);
+
+}
+.offer .second div p ,.testmonials p{
+    color: rgb(82, 58, 6);
+    white-space: pre-line;
+}
+.testmonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testmonials p{
+    font-size: 20px;
+}
+.testmonials span{
+    color: #dd8810;
+}
+.testmonials img{
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: rgb(143, 182, 145);
+}
+.testmonials div{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color:  rgb(135, 156, 92) ;
+
+
+}
+footer div p{
+    white-space: pre-line;
+}
+footer div input{
+    display: block;
+    width: 306px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer div label{
+    font-size: 18px;
+}
+footer div input[type="submit"]{
+    width: 75px;
+    margin-left: auto;
+}
+footer .third div {
+    display: flex;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+footer i{
+    font-size: 30px;
+}
+footer .fourth{
+    display: flex;
+    flex-direction: column;
+}
+footer .fourth div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer a{
+    color: #b47215;
+}
+footer h2 ,footer p{color: white;}
+.silder1{
+    height: 200px;
+    background-image: url("../images/nn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+footer input[value="Sign Up"]{
+    color: white;
+    background-color: #b47215;
+    border-radius: 5px;
+    border-style: none;
+}
+footer input[value="Sign Up"]:hover{
+    background-color: white;
+    color: #b47215;
+}
+.insilder1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.438);
+    justify-content: space-evenly;
+
+}
+.insilder1 h1{color: white;}
+.Centercontent{
+    display: flex;
+    justify-content: space-around;
+    background-color:#f1ebc8;
+}
+.top-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: pre-line;
+    background-color:#f1ebc8 ;
+}
+.left-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid green;
+}
+.left-content form {
+    display: flex;
+    flex-direction: column;
+}
+.left-content form input{
+    height: 25px;
+    width: 380px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.left-content form textarea{
+    width: 380px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.left-content form .span11{
+    height: 20px;
+    width: 105px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px 5px 5px 0px;
+    background-color: #dd8810;
+    border-radius: 5px;
+}
+.code{
+    display: flex;
+    align-items: center;
+
+}
+.code div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.code div input{
+    height: 15px;
+    width: 228px;
+}
+.left-content form .l1{
+    display: block;
+margin-top: 12px;
+margin-right: 140px;
+}
+.left-content form input[type="submit"]{
+    margin-left: auto;
+    margin-top: -5px;
+    margin-right: 20px;
+    width: 70px;
+}
+.left-content form p span{
+    color: #dd8810;
+}
+.a1{
+    display: flex;
+}
+.iconatt i{
+    font-size: 25px;
+}
+.iconatt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #d6a157;
+    height: 205px;
+    width: 45px;
+    text-align: center;
+}
+.linkatt{
+    display: flex;
+    flex-direction: column;
+}
+.linkatt div p {
+    white-space: pre-line;
+    
+}
+.map{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.socialat{
+    margin-bottom: 40px;
+}
+.socialat .ss{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+.socialat .ss h1{
+        margin-top: 80px;
+
+    }
+.socialat .ss div{
+
+    width: calc(90%/5);
+    border-radius: 5px;
+    background-color: #dd8810;
+}
+
+
